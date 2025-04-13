@@ -1,0 +1,187 @@
+@media screen and (max-width: 1200px) {
+    .nav-links li {
+        padding-left: 20px !important;
+    }
+    .banner_title h2 {
+        font-size: 40px !important;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .nav-links li {
+        padding-left: 20px !important;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        background: #000000e6;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        transform: translateY(50px);
+    }
+    .nav-links.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .nav-links.closing {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+    .menu-icon {
+        display: block !important;
+    }
+
+    .nav-links li {
+        padding-left: 0 !important;
+    }
+    .nav-links li a {
+        display: block;
+        line-height: 45px;
+        transition: background 0.4s, color 0.4s;
+        overflow: hidden;
+    }
+    .nav-links li a:hover {
+        color: var(--white);
+        background: rgba(0, 191, 111, 0.5);
+    }
+    .navbar .btn {
+        display: none !important;
+    }
+    .banner_title h2 {
+        font-size: 36px !important;
+    }
+    .banner_title p {
+        font-size: 16px !important;
+    }
+    .banner_title p {
+        font-size: 16px !important;
+    }
+    .banner_title {
+        margin-bottom: 50px !important;
+    }
+    .feature_left {
+        text-align: start !important;
+        margin-bottom: 50px !important;
+    }
+    .feature_middle .product {
+        margin-bottom: 50px !important;
+    }
+    
+    .feature_middle .product {
+        text-align: start !important;
+    }
+    .about_left{
+        margin-bottom: 50px !important;
+    }
+    .contact_map_container {
+        margin-bottom: 50px !important;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-top: 50px;
+    }
+    .download_list_item {
+        margin-top: 50px;
+    }
+    .product_title {
+        width: 100% !important;
+    }
+    .section_title h2 {
+        font-size: 30px !important;
+    }
+    .download_list_item {
+        text-align: start !important;
+    }
+	.copyright {
+		margin-top: 15px !important;
+	}
+}
+
+@media screen and  (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        background: #000000e6;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        transform: translateY(50px);
+    }
+    .nav-links.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .nav-links.closing {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+    .menu-icon {
+        display: block !important;
+    }
+
+    .nav-links li {
+        padding-left: 0 !important;
+    }
+    .nav-links li a {
+        display: block;
+        line-height: 45px;
+        transition: background 0.4s, color 0.4s;
+        overflow: hidden;
+    }
+    .nav-links li a:hover {
+        color: var(--white);
+        background: rgba(0, 191, 111, 0.5);
+    }
+    .navbar .btn {
+        display: none !important;
+    }
+    .product_title {
+        width: 100% !important;
+    }
+    .download_list_item {
+        text-align: start !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	.download_list_item li {
+    margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 330px) {
+
+}
